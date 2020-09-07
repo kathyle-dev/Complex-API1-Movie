@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/542bf3ebe4b091f86ebeaa66/1412212646490-I1MXJYJLC9OQZ49KM5Y7/ke17ZwdGBToddI8pDm48kBHpGH-X0zpLZ1whgoIjFI57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuWE03_WRJSFrtT6NjztAj8A3akf4VQWtcMAoN2Co69XXA/Curtains-opening.jpg?format=2500w");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#boxL{
+    width:100%;
+    display: grid;
+    justify-items: center;
+    border: 5px solid gold;
+    box-shadow: 0 0 0.75rem gold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#infoContainer{
+  width:100%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  border: 5px solid gold;
+  box-shadow: 0 0 0.75rem gold;
+  font-size: 1.5rem;
+  font-family: 'Limelight', cursive;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#boxR{
+  width:100%;
+  display: grid;
+  flex-direction: column;
+  justify-items: center;
+  border: 5px solid gold;
+  box-shadow: 0 0 0.75rem gold;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+h1{
+  font-size: 3rem;
+  font-family: 'Limelight', cursive;
+}
+h2, h3{
+  font-family: 'Limelight', cursive;
+  font-size: 1.5rem;
+}
+input{
+  height: 30px;
+  font-size: 1.5rem;
+  width:100%;
+  text-align: center;
+}
+
+button{
+  font-size: 1.5rem;
+  padding:0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #333533;
+  color: #f5cb5c;
+  outline: none;
+}
+button:hover{
+  filter: drop-shadow(0 0 0.75rem gold);
+}
+img{
+  height:350px;
+  width:200px;
+  display: none;
+}
+iframe{
+  display:none;
+}
+#plot{
+  margin-top: 5rem;
+}
+.hide{
+  display: none;
+}
