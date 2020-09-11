@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-image: url("https://images.squarespace-cdn.com/content/v1/542bf3ebe4b091f86ebeaa66/1412212646490-I1MXJYJLC9OQZ49KM5Y7/ke17ZwdGBToddI8pDm48kBHpGH-X0zpLZ1whgoIjFI57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hx0TKp4jCW7sB_BGURRbuWE03_WRJSFrtT6NjztAj8A3akf4VQWtcMAoN2Co69XXA/Curtains-opening.jpg?format=2500w");
+  background-image: url("https://cdn.hipwallpaper.com/i/14/70/AumI4r.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,20 +13,22 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .top{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 1.5rem;
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
   padding: 1rem;
 }
 .content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 10px;
 }
 #boxL{
     width:100%;
@@ -35,6 +37,7 @@ body{
     border: 5px solid gold;
     box-shadow: 0 0 0.75rem gold;
     background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 #infoContainer{
   width:100%;
@@ -47,6 +50,7 @@ body{
   font-family: 'Limelight', cursive;
   font-weight: lighter;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
 }
 #boxR{
   width:100%;
@@ -56,6 +60,7 @@ body{
   border: 5px solid gold;
   box-shadow: 0 0 0.75rem gold;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
 }
 h1{
   font-size: 3rem;
