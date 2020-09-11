@@ -11,7 +11,7 @@ let movie = {
   plot: document.getElementById('plot'),
   getMovie(){
     let input = movie.input.value.replace(" ","+");
-    fetch(`http://www.omdbapi.com/?s=${input}&apikey=1a115513`)
+    fetch(`https://www.omdbapi.com/?s=${input}&apikey=1a115513`)
       .then(response => response.json())
       .then(data => {
         if(document.getElementsByClassName("hide")[0].classList.contains("hide")){
